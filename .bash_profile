@@ -15,6 +15,7 @@ source ~/.git-shortcuts.sh
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
 source ~/.alias_completion.sh
+source ~/.ssh-completions.sh
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 # Load the shell dotfiles, and then some:
